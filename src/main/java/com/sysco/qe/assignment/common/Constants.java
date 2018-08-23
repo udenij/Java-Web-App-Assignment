@@ -33,4 +33,6 @@ public class Constants {
     public static final String VALID_USER_MSG="HELLO, WILLIAM JACOB!";
     public static final String ERROR_MSG_EMPTY_BITHDATE="Please enter your date of birth";
     public static final String ERROR_MSG_EMPTY_CART="You have no items in your shopping cart.";
+    public static final String DELIVERY_OPTION_MSG="I am aware that parcels will not be left unattended - must be signed for by a person over the age of 18. ";
+    public static final String ERROR_INAVLID_CC_NUMBER="Please enter a valid credit card number.";
 }

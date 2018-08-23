@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48556c06-3662-486e-94e5-a0cd1fbfac37" name="Default" comment="" />
+    <list default="true" id="48556c06-3662-486e-94e5-a0cd1fbfac37" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/PaymentVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/VerificationCheckout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/VerifyDeliveryOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/CheckOutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/DeliveryOptionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/PaymentInfoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4de5c81617599f599dca45aceff10d7bbc0e70d0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4de5c81617599f599dca45aceff10d7bbc0e70d0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/511f00f047eb2972a3e8dea12a952820d4de6add" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/511f00f047eb2972a3e8dea12a952820d4de6add" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b1d03392793ed02216dddf8bbc185bc781fae44" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b1d03392793ed02216dddf8bbc185bc781fae44" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/common/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/AddCartItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/AddCartItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/ShoppingCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/ShoppingCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/ShoppingCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/ShoppingCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sysco/qe/assignment/common/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sysco/qe/assignment/common/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sysco/qe/assignment/functions/AddCartItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sysco/qe/assignment/functions/AddCartItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sysco/qe/assignment/pages/ProductPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sysco/qe/assignment/pages/ProductPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sysco/qe/assignment/pages/ShoppingCartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sysco/qe/assignment/pages/ShoppingCartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sysco/qe/assignment/tests/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sysco/qe/assignment/tests/LoginPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sysco/qe/assignment/tests/ShoppingCartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sysco/qe/assignment/tests/ShoppingCartTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,44 +63,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingCartPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/ShoppingCartPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductPage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/ProductPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddCartItems.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/AddCartItems.java">
+      <file leaf-file-name="DeliveryOptionPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/DeliveryOptionPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/common/Constants.java">
+      <file leaf-file-name="CheckOutPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/CheckOutPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="95" selection-start-line="34" selection-start-column="95" selection-end-line="34" selection-end-column="95" />
+            <state relative-caret-position="442">
+              <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentInfoPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/PaymentInfoPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="20" column="48" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentVerification.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/PaymentVerification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -83,8 +108,12 @@
       <file leaf-file-name="RemoveCartItems.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/RemoveCartItems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="119">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="8" selection-end-column="79" />
+              <folding>
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +121,8 @@
       <file leaf-file-name="LoginPageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/LoginPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="2652">
+              <caret line="164" column="5" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,11 +130,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/utils/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ShoppingCartTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/ShoppingCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+            <state relative-caret-position="119">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,6 +164,9 @@
     <findStrings>
       <find>Mass</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -151,13 +192,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/DefaultPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/MyAccountPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/ShoppingCart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/common/Constants.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/RemoveCartItems.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/ShoppingCartPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/AddCartItems.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/ShoppingCartTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/ProductPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/AddCartItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/checkOutPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/ShoppingCartPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/VerificationCheckout.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/CheckOutPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/VerifyDeliveryOption.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/DeliveryOptionPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/common/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/PaymentVerification.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/ShoppingCartTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/LoginPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/PaymentInfoPage.java" />
       </list>
     </option>
   </component>
@@ -183,13 +231,14 @@
     <option name="width" value="1378" />
     <option name="height" value="733" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,10 +349,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Automation/QA-automation-Pcpricing-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.1150748" />
@@ -321,7 +372,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ShoppingCartTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application">
+  <component name="RunManager" selected="TestNG.LoginPageTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -370,7 +421,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="LoginPageTest.test_Verify_a_valid_Email_and_password_can_be_enterd_through_bundaberg_application" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment" />
       <extension name="coverage">
         <pattern>
@@ -383,7 +434,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.sysco.qe.assignment.tests" />
       <option name="MAIN_CLASS_NAME" value="com.sysco.qe.assignment.tests.LoginPageTest" />
-      <option name="METHOD_NAME" value="test_Verify_a_valid_Email_and_password_can_be_enterd_through_bundaberg_application" />
+      <option name="METHOD_NAME" value="test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -509,19 +560,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.LoginPageTest.test_Verify_a_valid_Email_and_password_can_be_enterd_through_bundaberg_application" />
       <item itemvalue="TestNG.LoginPageTest.test_Verify_a_valid_Email_and_Empty_Password_field_do_not_allow_through_bundaberg_application" />
       <item itemvalue="TestNG.LoginPageTest.test_Verify_a_valid_User_can_log_into_bundaberg_application" />
       <item itemvalue="TestNG.LoginPageTest.test_Verify_birthdate_can_not_be_empty_to_access_bundaberg_application" />
       <item itemvalue="TestNG.ShoppingCartTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" />
+      <item itemvalue="TestNG.LoginPageTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginPageTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" />
         <item itemvalue="TestNG.ShoppingCartTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" />
         <item itemvalue="TestNG.LoginPageTest.test_Verify_a_valid_User_can_log_into_bundaberg_application" />
         <item itemvalue="TestNG.LoginPageTest.test_Verify_birthdate_can_not_be_empty_to_access_bundaberg_application" />
         <item itemvalue="TestNG.LoginPageTest.test_Verify_a_valid_Email_and_Empty_Password_field_do_not_allow_through_bundaberg_application" />
-        <item itemvalue="TestNG.LoginPageTest.test_Verify_a_valid_Email_and_password_can_be_enterd_through_bundaberg_application" />
       </list>
     </recent_temporary>
   </component>
@@ -539,40 +590,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginPageTest_test_Verify_a_valid_User_can_log_into_bundaberg_application - 2018.08.08 at 19h 15m 50s.xml">
-      <configuration name="LoginPageTest.test_Verify_a_valid_User_can_log_into_bundaberg_application" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTest_test_Verify_a_valid_User_can_log_into_bundaberg_application - 2018.08.08 at 19h 19m 59s.xml">
-      <configuration name="LoginPageTest.test_Verify_a_valid_User_can_log_into_bundaberg_application" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTest_test_Verify_a_valid_User_can_log_into_bundaberg_application - 2018.08.08 at 19h 24m 32s.xml">
-      <configuration name="LoginPageTest.test_Verify_a_valid_User_can_log_into_bundaberg_application" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ShoppingCartTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.09 at 17h 51m 40s.xml">
+    <history-entry file="ShoppingCartTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.12 at 21h 10m 31s.xml">
       <configuration name="ShoppingCartTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ShoppingCartTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.09 at 17h 54m 06s.xml">
+    <history-entry file="ShoppingCartTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.12 at 21h 18m 57s.xml">
       <configuration name="ShoppingCartTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ShoppingCartTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.09 at 18h 02m 29s.xml">
+    <history-entry file="ShoppingCartTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.12 at 21h 23m 02s.xml">
       <configuration name="ShoppingCartTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ShoppingCartTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.09 at 18h 04m 14s.xml">
+    <history-entry file="ShoppingCartTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.12 at 21h 27m 00s.xml">
       <configuration name="ShoppingCartTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ShoppingCartTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.09 at 18h 14m 41s.xml">
+    <history-entry file="ShoppingCartTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.12 at 21h 31m 08s.xml">
       <configuration name="ShoppingCartTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ShoppingCartTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.09 at 18h 14m 43s.xml">
+    <history-entry file="ShoppingCartTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.12 at 21h 36m 41s.xml">
       <configuration name="ShoppingCartTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ShoppingCartTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.09 at 18h 57m 25s.xml">
-      <configuration name="ShoppingCartTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.13 at 09h 40m 39s.xml">
+      <configuration name="LoginPageTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.13 at 09h 55m 06s.xml">
+      <configuration name="LoginPageTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.13 at 09h 57m 07s.xml">
+      <configuration name="LoginPageTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTest_test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application - 2018.08.13 at 09h 59m 34s.xml">
+      <configuration name="LoginPageTest.test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -580,13 +630,13 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.32761577" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.16540213" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32761577" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.07132018" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3207547" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32867134" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33990896" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2723824" />
       <window_info anchor="bottom" id="SonarLint" order="7" weight="0.32933104" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -596,7 +646,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49924356" weight="0.32761577" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49924356" weight="0.32590052" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -606,7 +656,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32761577" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="SonarLint" order="7" weight="0.32933104" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
@@ -614,9 +664,9 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32761577" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32761577" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -624,7 +674,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32933104" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.32761577" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.32761577" />
@@ -635,59 +685,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/ShoppingCartTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/RemoveCartItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/DefaultPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/MyAccountPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="e#2043#2044#0" expanded="true" />
-            <element signature="e#2106#2107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/common/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="95" selection-start-line="34" selection-start-column="95" selection-end-line="34" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/RemoveCartItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2108">
@@ -702,9 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,13 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/utils/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/utils/DriverSetUpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
@@ -949,38 +942,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/VerifyMyAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="221">
           <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/DefaultPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/AddCartItems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="731">
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/ShoppingCartPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="99">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/ShoppingCartTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/VerificationCheckout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/ProductPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/VerifyDeliveryOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/common/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="36" column="98" selection-start-line="36" selection-start-column="98" selection-end-line="36" selection-end-column="98" />
         </state>
       </provider>
     </entry>
@@ -995,41 +1000,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/LoginPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/CheckOutPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="442">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/common/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="95" selection-start-line="34" selection-start-column="95" selection-end-line="34" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/RemoveCartItems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="8" selection-end-column="79" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/AddCartItems.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/functions/PaymentVerification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/ShoppingCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/DefaultPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/utils/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/DeliveryOptionPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/ProductPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/qe/assignment/tests/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="2652">
+          <caret line="164" column="5" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/qe/assignment/pages/PaymentInfoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

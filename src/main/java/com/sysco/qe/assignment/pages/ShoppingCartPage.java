@@ -19,7 +19,7 @@ public class ShoppingCartPage extends DefaultPage{
        syscoLabUI.sleep(2);
        return  syscoLabUI.getText(lblEmptyCartErrorMsg);
    }
-    public static void acceptBrowserAlert() {
+    public void acceptBrowserAlert() {
         Alert alert = syscoLabUI.driver.switchTo().alert();
         alert.accept();
     }

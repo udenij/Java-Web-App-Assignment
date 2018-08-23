@@ -1,9 +1,7 @@
 package com.sysco.qe.assignment.tests;
 
 import com.sysco.qe.assignment.common.Constants;
-import com.sysco.qe.assignment.functions.BrowseDefault;
-import com.sysco.qe.assignment.functions.RemoveCartItems;
-import com.sysco.qe.assignment.functions.VerifyMyAccount;
+import com.sysco.qe.assignment.functions.*;
 import com.sysco.qe.assignment.pages.DefaultPage;
 import com.sysco.qe.assignment.utils.TestBase;
 import com.syscolab.qe.core.reporting.SyscoLabListener;
@@ -106,6 +104,62 @@ public class LoginPageTest extends TestBase {
         VerifyMyAccount.clickOnLogin();
         String error=VerifyMyAccount.getEmptyPasswordErrorMsg();
         softAssert.assertEquals(error,Constants.ERROR_MSG_REQUIRED_FIELD,"Invalid Error Message");
+        softAssert.assertAll();
+
+    }
+    @Test(description = "testcase1", alwaysRun = true, priority = 1)
+    public void test_Verify_a_valid_User_can_log_into_bundaberg_application() throws Exception {
+        BrowseDefault.setBirthDay("7","March","1991");
+        BrowseDefault.hitEntetr();
+        VerifyMyAccount.navigateToMyAccountPage();
+        boolean result1=VerifyMyAccount.verifyLogin();
+        softAssert.assertEquals(result1,true,"Success");
+        VerifyMyAccount.verifyEmail("williamjacob802@gmail.com");
+        VerifyMyAccount.verifyPassword("12345678");
+        boolean result2=VerifyMyAccount.verifySuccessMessage();
+        softAssert.assertEquals(result2,true,"Success");
+        RemoveCartItems.removeCartItems();
+        String error=RemoveCartItems.getlblEmptyCartError();
+        softAssert.assertEquals(error,Constants.ERROR_MSG_EMPTY_CART);
+        softAssert.assertAll();
+
+    }
+    @Test(description = "testcase2", alwaysRun = true, priority = 1)
+    public void test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application() throws Exception {
+        BrowseDefault.setBirthDay("7","March","1991");
+        BrowseDefault.hitEntetr();
+        VerifyMyAccount.navigateToMyAccountPage();
+        boolean result1=VerifyMyAccount.verifyLogin();
+        softAssert.assertEquals(result1,true,"Success");
+        VerifyMyAccount.verifyEmail("williamjacob802@gmail.com");
+        VerifyMyAccount.verifyPassword("12345678");
+        boolean result2=VerifyMyAccount.verifySuccessMessage();
+        softAssert.assertEquals(result2,true,"Success");
+        RemoveCartItems.removeCartItems();
+        String error=RemoveCartItems.getlblEmptyCartError();
+        softAssert.assertEquals(error,Constants.ERROR_MSG_EMPTY_CART);
+        AddCartItems.hoverListOfProducts();
+        AddCartItems.clickItems();
+        String itemName=AddCartItems.getSelectedItemName();
+        String itemPrice=AddCartItems.getSelectedItemPrice();
+        AddCartItems.addItemsToCart();
+        String cartContainItemName=AddCartItems.getCartContentItemName();
+        String cartContainItemPrice=AddCartItems.getCartContentItemPrice();
+        boolean result3=AddCartItems.itemContetntVerification(itemName,itemPrice,cartContainItemName,cartContainItemPrice);
+        softAssert.assertEquals(result3,true,"valid Content");
+        AddCartItems.clickOnCheckOutAndProceed();
+        boolean result4=VerificationCheckout.verifyFirstAndLastName("william","jacob");
+        softAssert.assertEquals(result4,true,"success");
+        String result5=VerificationCheckout.clickOnContinue();
+        softAssert.assertEquals(result5,Constants.ERROR_MSG_REQUIRED_FIELD,"Invalid message");
+        VerificationCheckout.resetFirstName("william");
+        VerificationCheckout.enterThePassCode("2000");
+        boolean result6=VerifyDeliveryOption.verifyDeliveryOptionMessage();
+        softAssert.assertEquals(result6,Constants.DELIVERY_OPTION_MSG,"Success Message");
+        boolean result7=VerifyDeliveryOption.verifyDeliveryOptionMessage();
+        softAssert.assertEquals(result7,true,"Invalid Message");
+        String error2=PaymentVerification.verifyCreditCardCredentials("12345678","12345");
+        softAssert.assertEquals(error2,Constants.ERROR_INAVLID_CC_NUMBER,"Invalid Error message");
         softAssert.assertAll();
 
     }
