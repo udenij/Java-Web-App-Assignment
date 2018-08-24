@@ -2,7 +2,6 @@ package com.sysco.qe.assignment.tests;
 
 import com.sysco.qe.assignment.common.Constants;
 import com.sysco.qe.assignment.functions.*;
-import com.sysco.qe.assignment.pages.DefaultPage;
 import com.sysco.qe.assignment.utils.TestBase;
 import com.syscolab.qe.core.reporting.SyscoLabListener;
 import org.testng.ITestContext;
@@ -11,14 +10,14 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners(SyscoLabListener.class)
-public class LoginPageTest extends TestBase {
+public class BundabergumTest extends TestBase {
 
     @BeforeClass
     public void init(ITestContext iTestContext) {
         iTestContext.setAttribute("feature", "Bundabergrum - Checkout");
         syscoLabQCenter.setModule(Constants.BUNDABERGUM);
         syscoLabQCenter.setFeature(Constants.BUNDABERGUM + " - "+Constants.CHECKOUT);
-        syscoLabQCenter.setClassName(LoginPageTest.class.getName());
+        syscoLabQCenter.setClassName(BundabergumTest.class.getName());
 
 
     }
