@@ -77,4 +77,9 @@ public class MyAccountPage extends DefaultPage {
             return false;
     }
 
+    public void clearLoginFileds(){
+        syscoLabUI.driver.findElement(txtEmail).clear();
+        syscoLabUI.driver.findElement(txtPassword).clear();
+    }
+
 }

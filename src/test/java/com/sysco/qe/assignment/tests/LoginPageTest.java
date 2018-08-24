@@ -13,16 +13,16 @@ import org.testng.annotations.Test;
 @Listeners(SyscoLabListener.class)
 public class LoginPageTest extends TestBase {
 
-    /*@BeforeClass
+    @BeforeClass
     public void init(ITestContext iTestContext) {
-        iTestContext.setAttribute("feature", "PCPricing - MassUpload");
-        syscoLabQCenter.setModule(Constants.PCPRICING);
-        syscoLabQCenter.setFeature(Constants.PCPRICING + " - " + Constants.MASSUPLOAD);
+        iTestContext.setAttribute("feature", "Bundabergrum - Checkout");
+        syscoLabQCenter.setModule(Constants.BUNDABERGUM);
+        syscoLabQCenter.setFeature(Constants.BUNDABERGUM + " - "+Constants.CHECKOUT);
         syscoLabQCenter.setClassName(LoginPageTest.class.getName());
 
 
     }
-    */
+
 
 
     @Test(description = "testcase1", alwaysRun = true, priority = 1)
@@ -36,15 +36,7 @@ public class LoginPageTest extends TestBase {
 
     }
 
-    @Test(description = "testcase2", alwaysRun = true, priority = 2)
-    public void test_Verify_birthdate_can_not_be_empty_to_access_bundaberg_application() throws Exception {
-        BrowseDefault.hitEntetr();
-        String message=BrowseDefault.getLblEmptyMsg();
-        softAssert.assertEquals(message,Constants.ERROR_MSG_EMPTY_BITHDATE,"Invalid Error Message");
-        softAssert.assertAll();
-
-    }
-    @Test(description = "testcase3", alwaysRun = true, priority = 3)
+    @Test(description = "testcase3", alwaysRun = true, priority = 2)
     public void test_Verify_a_valid_user_of_age_greater_than_18_can_access_bundaberg_application() throws Exception {
 
         BrowseDefault.setBirthDay("7","March","1991");
@@ -55,65 +47,50 @@ public class LoginPageTest extends TestBase {
 
     }
 
-    @Test(description = "testcase4", alwaysRun = true, priority = 4)
+    @Test(description = "testcase4", alwaysRun = true, priority = 3)
     public void test_Verify_a_valid_user_has_access_to_login_button_through_bundaberg_application() throws Exception {
-        BrowseDefault.setBirthDay("7","March","1991");
-        BrowseDefault.hitEntetr();
         VerifyMyAccount.navigateToMyAccountPage();
         boolean result=VerifyMyAccount.verifyLogin();
         softAssert.assertEquals(result,true,"Success");
         softAssert.assertAll();
 
     }
-    @Test(description = "testcase5", alwaysRun = true, priority = 5)
+    @Test(description = "testcase5", alwaysRun = true, priority = 4)
     public void test_Verify_a_valid_email_can_be_enterd_through_bundaberg_application() throws Exception {
-        BrowseDefault.setBirthDay("7","March","1991");
-        BrowseDefault.hitEntetr();
-        VerifyMyAccount.navigateToMyAccountPage();
         boolean result=VerifyMyAccount.verifyLogin();
         softAssert.assertEquals(result,true,"Success");
         VerifyMyAccount.verifyEmail("test.123");
         String error=VerifyMyAccount.getEmailErrorMsg();
         softAssert.assertEquals(error,Constants.ERROR_MSG_INVALID_EMAIL,"Invalid Error Message");
+        VerifyMyAccount.clearLoginFields();
         softAssert.assertAll();
 
     }
-    @Test(description = "testcase6", alwaysRun = true, priority = 6)
+    @Test(description = "testcase6", alwaysRun = true, priority = 5)
     public void test_Verify_a_valid_Email_and_password_can_be_enterd_through_bundaberg_application() throws Exception {
-        BrowseDefault.setBirthDay("7","March","1991");
-        BrowseDefault.hitEntetr();
-        VerifyMyAccount.navigateToMyAccountPage();
-        boolean result=VerifyMyAccount.verifyLogin();
-        softAssert.assertEquals(result,true,"Success");
+
         VerifyMyAccount.verifyEmail("williamjacob802@gmail.com");
         VerifyMyAccount.verifyPassword("123");
         VerifyMyAccount.clickOnLogin();
         String error=VerifyMyAccount.getPasswordErrorMsg();
         softAssert.assertEquals(error,Constants.ERROR_MSG_INVALID_PWRD,"Invalid Error Message");
+        VerifyMyAccount.clearLoginFields();
         softAssert.assertAll();
 
     }
-    @Test(description = "testcase7", alwaysRun = true, priority = 7)
+    @Test(description = "testcase7", alwaysRun = true, priority = 6)
     public void test_Verify_a_valid_Email_and_Empty_Password_field_do_not_allow_through_bundaberg_application() throws Exception {
-        BrowseDefault.setBirthDay("7","March","1991");
-        BrowseDefault.hitEntetr();
-        VerifyMyAccount.navigateToMyAccountPage();
-        boolean result=VerifyMyAccount.verifyLogin();
-        softAssert.assertEquals(result,true,"Success");
+
         VerifyMyAccount.verifyEmail("williamjacob802@gmail.com");
         VerifyMyAccount.clickOnLogin();
         String error=VerifyMyAccount.getEmptyPasswordErrorMsg();
         softAssert.assertEquals(error,Constants.ERROR_MSG_REQUIRED_FIELD,"Invalid Error Message");
+        VerifyMyAccount.clearLoginFields();
         softAssert.assertAll();
 
     }
-    @Test(description = "testcase1", alwaysRun = true, priority = 1)
+    @Test(description = "testcase1", alwaysRun = true, priority = 7)
     public void test_Verify_a_valid_User_can_log_into_bundaberg_application() throws Exception {
-        BrowseDefault.setBirthDay("7","March","1991");
-        BrowseDefault.hitEntetr();
-        VerifyMyAccount.navigateToMyAccountPage();
-        boolean result1=VerifyMyAccount.verifyLogin();
-        softAssert.assertEquals(result1,true,"Success");
         VerifyMyAccount.verifyEmail("williamjacob802@gmail.com");
         VerifyMyAccount.verifyPassword("12345678");
         boolean result2=VerifyMyAccount.verifySuccessMessage();
@@ -124,20 +101,8 @@ public class LoginPageTest extends TestBase {
         softAssert.assertAll();
 
     }
-    @Test(description = "testcase2", alwaysRun = true, priority = 1)
+    @Test(description = "testcase2", alwaysRun = true, priority = 8)
     public void test_Verify_a_valid_User_can_add_items_to_cart_through_bundaberg_application() throws Exception {
-        BrowseDefault.setBirthDay("7","March","1991");
-        BrowseDefault.hitEntetr();
-        VerifyMyAccount.navigateToMyAccountPage();
-        boolean result1=VerifyMyAccount.verifyLogin();
-        softAssert.assertEquals(result1,true,"Success");
-        VerifyMyAccount.verifyEmail("williamjacob802@gmail.com");
-        VerifyMyAccount.verifyPassword("12345678");
-        boolean result2=VerifyMyAccount.verifySuccessMessage();
-        softAssert.assertEquals(result2,true,"Success");
-        RemoveCartItems.removeCartItems();
-        String error=RemoveCartItems.getlblEmptyCartError();
-        softAssert.assertEquals(error,Constants.ERROR_MSG_EMPTY_CART);
         AddCartItems.hoverListOfProducts();
         AddCartItems.clickItems();
         String itemName=AddCartItems.getSelectedItemName();
@@ -158,8 +123,8 @@ public class LoginPageTest extends TestBase {
         softAssert.assertEquals(result6,Constants.DELIVERY_OPTION_MSG,"Success Message");
         boolean result7=VerifyDeliveryOption.verifyDeliveryOptionMessage();
         softAssert.assertEquals(result7,true,"Invalid Message");
-        String error2=PaymentVerification.verifyCreditCardCredentials("12345678","12345");
-        softAssert.assertEquals(error2,Constants.ERROR_INAVLID_CC_NUMBER,"Invalid Error message");
+        //String error2=PaymentVerification.verifyCreditCardCredentials("12345678","12345");
+        //softAssert.assertEquals(error2,Constants.ERROR_INAVLID_CC_NUMBER,"Invalid Error message");
         softAssert.assertAll();
 
     }

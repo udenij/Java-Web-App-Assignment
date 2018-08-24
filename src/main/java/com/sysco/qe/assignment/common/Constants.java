@@ -25,6 +25,9 @@ public class Constants {
     public static final String IOEXCEPTION_ERROR="IO Exception";
     public static final String FILE_NOT_FOUND_ERROR="File not found";
 
+    public static final String BUNDABERGUM="Bundabergrum";
+    public static final String CHECKOUT="Checkout";
+
     public static final String ERROR_MSG_ACESS_DENIED="Sorry, your age or location does not permit you to enter at this time.";
     public static final String ERROR_MSG_INVALID_PWRD="Please enter 6 or more characters. Leading or trailing spaces will be ignored.";
     public static final String ERROR_MSG_INVALID_EMAIL="Please enter a valid email address. For example johndoe@domain.com.";

@@ -50,7 +50,7 @@ public class TestBase {
         BrowseDefault.quitDriver();
     }
 
-   /* @AfterClass
+   @AfterClass
     public void cleanUP(ITestContext iTestContext){
         testSuiteDuration = new Date().getTime() - testSuiteStartTime;
         try {
@@ -61,6 +61,6 @@ public class TestBase {
             LoggerUtil.logERROR("Exception",e);
         }
     }
-    */
+
 
 }

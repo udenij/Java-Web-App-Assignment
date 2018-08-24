@@ -19,6 +19,10 @@ public class VerifyMyAccount {
         myAccountPage.validateEmail(mail);
     }
 
+    public static void clearLoginFields(){
+        myAccountPage.clearLoginFileds();
+    }
+
     public static void verifyPassword(String password){
         myAccountPage.validatePassword(password);
     }

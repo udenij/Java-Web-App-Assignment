@@ -1,6 +1,6 @@
 
+€squid:S1488!"]Immediately return this expression instead of assigning it to the temporary variable "price".(Ç…”Œüÿÿÿÿ8Âƒ™óÒ,
 _squid:S1126'"AReplace this if-then-else statement by a single return statement.(†¢­8Âƒ™óÒ,
-~squid:S1488"`Immediately return this expression instead of assigning it to the temporary variable "itemName".(¢Ø à8Âƒ™óÒ,
 ~squid:S1488"aImmediately return this expression instead of assigning it to the temporary variable "itemPrice".(¼ø˜e8Âƒ™óÒ,
 zsquid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "name".(š‰øó8Âƒ™óÒ,
-€squid:S1488!"]Immediately return this expression instead of assigning it to the temporary variable "price".(Ç…”Œüÿÿÿÿ8Âƒ™óÒ,
+~squid:S1488"`Immediately return this expression instead of assigning it to the temporary variable "itemName".(¢Ø à8Âƒ™óÒ,

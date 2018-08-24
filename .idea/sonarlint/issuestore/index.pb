@@ -33,3 +33,9 @@ s
 Csrc/main/java/com/sysco/qe/assignment/pages/DeliveryOptionPage.java,0\0\004f5a70fe6365a8735b9fae65fc34df457c6f13
 i
 9src/test/java/com/sysco/qe/assignment/utils/TestBase.java,d\b\db68593f16bf1d6fa07ee35e1f296c2be3acee63
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+q
+Asrc/main/java/com/sysco/qe/assignment/common/SUTAPProperties.java,c\2\c227da4983c05f7d59f9913ab014fa3413498ef4
+r
+Bsrc/main/java/com/sysco/qe/assignment/functions/BrowseDefault.java,6\2\62217d28942f95444d79897ef312189d62b43b9b
